@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From-Scratch Page</title>
+    <link rel="stylesheet" href="css/custom-style.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7c4dff;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #512da8;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 2rem;
+            margin: 1rem auto;
+            width: 90%;
+            max-width: 900px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .custom-div {
+            padding: 1rem;
+            margin-top: 1rem;
+            background-color: #e0e0e0;
+            border-left: 5px solid #7c4dff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 id="top">Lululemon Analysis: From-Scratch Page</h1>
+</header>
+
+<nav>
+    <a href="index.html">Back to Main Site</a>
+    <a href="#video">Video</a>
+    <a href="#tableau">Tableau</a>
+</nav>
+
+<div class="section">
+    <h2>Lululemon </h2>
+    <ol>
+        <li>Financial Strengths
+            <ul>
+                <li>Strong Net Income Growth</li>
+                <li>Expanding Market Share</li>
+            </ul>
+        </li>
+        <li>Risks
+            <ul>
+                <li>Inventory Challenges</li>
+                <li>Global Economic Conditions</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+<div class="section" id="video">
+    <h2>Overview Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bhbDDSohJ84" title="YouTube video player" allowfullscreen></iframe>
+</div>
+
+<div class="section">
+    <h2>Featured Image</h2>
+    <img class="img-fluid mb-3" src="assets/img/Lululemon_USA.png" alt="Revenue Chart" />
+</div>
+
+<div class="section" id="tableau">
+    <h2>Interactive Tableau Graph</h2>
+    <div class='tableauPlaceholder' id='viz1746778416187' style='position: relative'>
+        <noscript><a href='#'><img alt='Lululemon Growth Analysis ' src='https://public.tableau.com/static/images/Pr/Project-1_15568320929370/LululemonGrowthAnalysis/1_rss.png' style='border: none' /></a></noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Project-1_15568320929370/LululemonGrowthAnalysis' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Pr/Project-1_15568320929370/LululemonGrowthAnalysis/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1746778416187');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '1024px';
+            vizElement.style.height = '795px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '600px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '500px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</div>
+
+</body>
+</html>

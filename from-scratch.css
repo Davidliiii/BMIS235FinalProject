@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.data-box {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #eafaf1;
+    color: #2c662d;
+}
+
+.contrast {
+    background-color: #fdf2e9;
+    color: #9c5700;
+}
+
+.soft {
+    background-color: #ebf5fb;
+    color: #154360;
+}
